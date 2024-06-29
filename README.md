@@ -181,7 +181,8 @@ Future Work
 Improve context management.
 Expand the knowledge base.
 Refine entity recognition for better conversation quality.
-Appendix
+
+### Appendix
 Knowledge Base
 The knowledge base includes pivotal keywords related to the Tata Group and Ratan Tata.
 
