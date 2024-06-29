@@ -127,7 +127,7 @@ Update the input_directory variable in the script to match your machine's direct
 
 ```sh
 python web_scraping.py
-This will scrape the data, clean it, and build the knowledge base.
+# This will scrape the data, clean it, and build the knowledge base.
 ```
 
 Run the ChatBot
