@@ -132,13 +132,13 @@ This will scrape the data, clean it, and build the knowledge base.
 
 Run the ChatBot
 
-``` sh python chat_bot.py```
+``` python chat_bot.py```
 This will start the chatbot in the command line interface.
 
 Run the ChatBot with GUI
 To use the chatbot with a GUI, comment out the last line (start_chat_session()) in chat_bot.py and run:
 
-``` sh python chat_bot_gui.py```
+``` python chat_bot_gui.py```
 
 
 ### Interacting with the ChatBot
@@ -156,6 +156,32 @@ Refine entity recognition for better conversation quality.
 
 
 ### Appendix
+Knowledge Base
+The knowledge base includes pivotal keywords related to the Tata Group and Ratan Tata.
+
+User Models
+User models capture individual data, including name, likes, dislikes, and personal information, enabling personalized interactions.
+
+Sample User Models
+User models are created or updated based on NER and user inputs.
+
+Survey Results
+Users rate the chatbot positively for ease of interaction, relevance of responses, and personalization effectiveness.
+
+Conclusion
+This project demonstrates the potential of NLP in creating interactive, personalized user experiences. Future enhancements will focus on context management, knowledge base expansion, and entity recognition improvements.
+
+
+Interacting with the ChatBot
+Start the bot, and it will greet you and ask for your user ID.
+If you are a returning user, it will load your previous session data.
+Ask questions related to Ratan Tata and the Tata Group, and the bot will provide responses based on the knowledge base.
+The bot will learn from your interactions, updating your user model with likes, dislikes, and personal information for personalized responses.
+Future Work
+Improve context management.
+Expand the knowledge base.
+Refine entity recognition for better conversation quality.
+Appendix
 Knowledge Base
 The knowledge base includes pivotal keywords related to the Tata Group and Ratan Tata.
 
